@@ -16,6 +16,7 @@
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <!-- RMP6768 Kernel -->
   <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768" remote="github" revision="aosp-14/bpf" />
