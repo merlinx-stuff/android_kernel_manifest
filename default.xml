@@ -18,7 +18,7 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
 
   <!-- RMP6768 Kernel -->
-  <project path="kernel/realme/RMP6768" name="StatiXOS/android_kernel_realme_RMP6768" remote="github" revision="tm" />
+  <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768" remote="github" revision="aosp-14/bpf" />
 
   <!-- GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
