@@ -20,7 +20,7 @@
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
 
   <!-- RMP6768 Kernel -->
-  <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768" remote="github" revision="aosp-14/bpf" />
+  <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768" remote="github" revision="lineage-21" />
 
   <!-- GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="lineage-19.1" clone-depth="1" />
