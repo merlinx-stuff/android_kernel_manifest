@@ -23,6 +23,6 @@
   <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768" remote="github" revision="main" clone-depth="1"/>
 
   <!-- Clang -->
-  <project path="prebuilts-master/clang/host/linux-x86/clang-r522817" name="kei-space/clang/r522817" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts-master/clang/host/linux-x86/clang-r536225" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r536225" remote="gitlab" revision="15.0" clone-depth="1" />
 
 </manifest>
