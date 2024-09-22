@@ -9,18 +9,18 @@
 
   <!-- AOSP -->
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="4" />
-  <superproject name="kernel/superproject" remote="aosp"/>
-  <project path="build" name="kernel/build" />
-  <project path="kernel/tests" name="kernel/tests" />
-  <project path="kernel/configs" name="kernel/configs" />
+  <superproject name="kernel/superproject" remote="aosp" clone-depth="1"/>
+  <project path="build" name="kernel/build" clone-depth="1" />
+  <project path="kernel/tests" name="kernel/tests" clone-depth="1" />
+  <project path="kernel/configs" name="kernel/configs" clone-depth="1" />
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" />
-  <project path="tools/libufdt" name="platform/system/libufdt" revision="master" remote="aosp" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" />
+  <project path="tools/libufdt" name="platform/system/libufdt" revision="master" remote="aosp" clone-depth="1" />
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" clone-depth="1"/>
 
   <!-- RMP6768 Kernel -->
-  <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768" remote="github" revision="main" />
+  <project path="kernel/xiaomi/mt6768" name="merlinx-stuff/android_kernel_xiaomi_mt6768" remote="github" revision="main" clone-depth="1"/>
 
   <!-- Clang -->
   <project path="prebuilts-master/clang/host/linux-x86/clang-r522817" name="kei-space/clang/r522817" remote="gitlab" revision="master" clone-depth="1" />
